@@ -24,7 +24,7 @@ class IntroPage extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               //title
-              Text(
+              const Text(
                 "For Kicks, We got you",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
               ),
@@ -42,14 +42,14 @@ class IntroPage extends StatelessWidget {
               GestureDetector(
                 onTap: () => Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Homepage()),
+                  MaterialPageRoute(builder: (context) => const Homepage()),
                 ),
                 child: Container(
                   decoration: BoxDecoration(
                       color: Colors.brown[500],
                       borderRadius: BorderRadius.circular(15)),
-                  child: Padding(
-                    padding: const EdgeInsets.all(25.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(25.0),
                     child: Text(
                       "Shop Now",
                       style: TextStyle(

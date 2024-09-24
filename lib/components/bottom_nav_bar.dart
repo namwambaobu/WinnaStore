@@ -8,7 +8,7 @@ class BottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(vertical: 25.0),
+      padding: const EdgeInsets.symmetric(vertical: 25.0),
       child: GNav(
           color: Colors.brown[400],
           activeColor: Colors.brown[900],
@@ -17,7 +17,7 @@ class BottomNavBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           tabBorderRadius: 8,
           onTabChange: (value) => onTabChange!(value),
-          tabs: [
+          tabs: const [
             GButton(
               icon: Icons.home,
               text: 'Shop',
