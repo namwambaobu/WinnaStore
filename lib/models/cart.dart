@@ -5,45 +5,46 @@ class Cart extends ChangeNotifier {
   //List of shoes for sale
   List<Shoe> shoeShop = [
     Shoe(
-        name: "Image1",
-        price: "200",
+        name: "Comfy Sketchers",
+        price: "80",
         imagePath: 'assets/images/image1.png',
-        description: "On fleek"),
+        description: "Comfy Running shoes with a strong and reliable sole"),
     Shoe(
-        name: "Image2",
-        price: "200",
+        name: "Nike **",
+        price: "400",
         imagePath: 'assets/images/image2.png',
-        description: "On fleek"),
+        description: "Limited Editions "),
     Shoe(
-        name: "Image3",
-        price: "200",
+        name: "Comfy Boots",
+        price: "180",
         imagePath: 'assets/images/image3.png',
-        description: "On fleek"),
+        description: "Feet massagers, So reliable"),
     Shoe(
-        name: "Image4",
+        name: "Adidas Samba",
         price: "200",
         imagePath: 'assets/images/image4.png',
-        description: "On fleek"),
+        description: "Stylish and very reliable regardless of the ocassion"),
     Shoe(
-        name: "Image5",
-        price: "200",
+        name: "Simple Sketchers",
+        price: "80",
         imagePath: 'assets/images/image5.png',
-        description: "On fleek"),
+        description: "Simple but still stylish"),
     Shoe(
-        name: "Image6",
-        price: "200",
+        name: "Yeexy Slides",
+        price: "150",
         imagePath: 'assets/images/image6.png',
-        description: "On fleek"),
+        description: "Ye made it happen"),
     Shoe(
-        name: "Image7",
+        name: "Chunky Boots",
         price: "200",
         imagePath: 'assets/images/image7.png',
-        description: "On fleek"),
+        description:
+            "Need that confidence booster with a height lift, look no further"),
     Shoe(
-        name: "Image8",
+        name: "Indoor Slides",
         price: "200",
         imagePath: 'assets/images/image8.png',
-        description: "On fleek"),
+        description: "The are Comfy as ...🤣"),
   ];
   //list of items in user cart
   List<Shoe> userCart = [];
