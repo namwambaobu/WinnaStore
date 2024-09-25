@@ -47,7 +47,7 @@ class _HomepageState extends State<Homepage> {
         elevation: 0,
         leading: Builder(builder: (context) {
           return IconButton(
-            icon: Icon(
+            icon: const Icon(
               Icons.menu,
               color: Colors.black,
             ),
@@ -76,8 +76,8 @@ class _HomepageState extends State<Homepage> {
                   ),
                 ),
                 //other pages
-                Padding(
-                  padding: const EdgeInsets.only(left: 25.0),
+                const Padding(
+                  padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.home,
@@ -89,8 +89,8 @@ class _HomepageState extends State<Homepage> {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 25.0),
+                const Padding(
+                  padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.info,
@@ -102,8 +102,8 @@ class _HomepageState extends State<Homepage> {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 25.0),
+                const Padding(
+                  padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.settings,
@@ -117,8 +117,8 @@ class _HomepageState extends State<Homepage> {
                 ),
               ],
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 25.0, bottom: 25.0),
+            const Padding(
+              padding: EdgeInsets.only(left: 25.0, bottom: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.logout,

@@ -9,7 +9,7 @@ class ShoeTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 25),
+      margin: const EdgeInsets.only(left: 25),
       width: 200,
       decoration: BoxDecoration(
           color: Colors.white, borderRadius: BorderRadius.circular(15)),
@@ -25,7 +25,7 @@ class ShoeTile extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 25.0),
             child: Text(
               shoe.description,
-              style: TextStyle(color: Colors.black),
+              style: const TextStyle(color: Colors.black),
             ),
           ),
           //price + detail
@@ -41,8 +41,8 @@ class ShoeTile extends StatelessWidget {
                     //shoe name
                     Text(
                       shoe.name,
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 16),
                     ),
                     const SizedBox(
                       height: 10,
@@ -50,7 +50,7 @@ class ShoeTile extends StatelessWidget {
                     //price
                     Text(
                       '\$' + shoe.price,
-                      style: TextStyle(color: Colors.grey),
+                      style: const TextStyle(color: Colors.grey),
                     )
                   ],
                 ),
@@ -59,13 +59,13 @@ class ShoeTile extends StatelessWidget {
                 GestureDetector(
                   onTap: onTap,
                   child: Container(
-                      padding: EdgeInsets.all(20),
-                      decoration: BoxDecoration(
+                      padding: const EdgeInsets.all(20),
+                      decoration: const BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.only(
                               topLeft: Radius.circular(20),
                               bottomRight: Radius.circular(20))),
-                      child: Icon(
+                      child: const Icon(
                         Icons.add,
                         color: Colors.white,
                       )),

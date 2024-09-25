@@ -18,7 +18,7 @@ class _ShopPageState extends State<ShopPage> {
     //alert user shoe was added to cart
     showDialog(
         context: context,
-        builder: (context) => AlertDialog(
+        builder: (context) => const AlertDialog(
               title: Text("Successfully added to Cart"),
               content: Text("Check your Cart"),
             ));
@@ -31,13 +31,13 @@ class _ShopPageState extends State<ShopPage> {
         children: [
           //searchBar
           Container(
-            padding: EdgeInsets.all(20),
-            margin: EdgeInsets.symmetric(
+            padding: const EdgeInsets.all(20),
+            margin: const EdgeInsets.symmetric(
               horizontal: 25.0,
             ),
             decoration: BoxDecoration(
                 color: Colors.white, borderRadius: BorderRadius.circular(15)),
-            child: Row(
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
@@ -61,8 +61,8 @@ class _ShopPageState extends State<ShopPage> {
             ),
           ),
           //hot picks
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 25.0),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 25.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.end,
