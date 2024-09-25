@@ -5,7 +5,7 @@ class Cart extends ChangeNotifier {
   //List of shoes for sale
   List<Shoe> shoeShop = [
     Shoe(
-        name: "Comfy Sketchers",
+        name: "Sketchers",
         price: "80",
         imagePath: 'assets/images/image1.png',
         description: "Comfy Running shoes with a strong and reliable sole"),
@@ -25,7 +25,7 @@ class Cart extends ChangeNotifier {
         imagePath: 'assets/images/image4.png',
         description: "Stylish and very reliable regardless of the ocassion"),
     Shoe(
-        name: "Simple Sketchers",
+        name: "Sketchers",
         price: "80",
         imagePath: 'assets/images/image5.png',
         description: "Simple but still stylish"),
